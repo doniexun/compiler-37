@@ -1,0 +1,6 @@
+Pawel Pamula
+185883
+
+compilation: make
+execution: kompilator.exe < in.txt > out.txt
+testing: interpreter.exe out.txt

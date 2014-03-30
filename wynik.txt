@@ -1,0 +1,5 @@
+Czytanie programu.
+Skończono czytanie programu (linii: 53).
+Uruchamianie programu.
+> 1
+Skończono program (wykonano kroków: 505).

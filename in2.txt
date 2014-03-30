@@ -1,0 +1,36 @@
+VAR a b c d
+BEGIN
+   a:=132345678938498903;
+   b:=143432432434453567;
+   c:=123456789012345678;
+   d:=124234432432432432;
+   IF a < b THEN
+      IF a < c THEN
+         IF a < d THEN
+            WRITE a;
+         ELSE
+            WRITE d;
+         END   
+      ELSE
+         IF c < d THEN
+            WRITE c;
+         ELSE
+            WRITE d;
+         END
+      END
+   ELSE
+      IF b < c THEN
+         IF b < d THEN
+            WRITE b;
+         ELSE
+            WRITE d;
+         END
+      ELSE
+         IF c < d THEN
+            WRITE c;
+         ELSE
+            WRITE d;
+         END
+      END
+   END
+END
